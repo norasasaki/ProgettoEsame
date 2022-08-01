@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+	background-image: URL("immagini/sfondo1.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+	font-family: 'Charm',cursive;
+}
+header {
+	text-align:center;
+}
+
+#testa{
+	width:85%;
+	padding-bottom: 1%;
+}
+ul {
+  text-align:center;
+  list-style-type: none;
+  width: 85%;
+  padding-left:0%;
+  margin-left: 7.5%;
+  margin-right:7.5%;
+  overflow: hidden;
+  background-color:rgba(79,255,205,0.32);
+}
+li{
+	display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+  font-size: 145%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+div.centrale{
+	position: absolute;
+	color: white;
+	background-color: rgba(255,255,255,0.26);
+	width: 83%;
+	border: solid 2px #FFFFFF;
+	border-top-right-radius: 3%;
+    margin-top: 1%;
+	margin-left:7.5%;
+	margin-right:7.5%;
+	margin-bottom:3%;
+	align-content:center;
+}
+
+#spazio{
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#base{
+	width:440px;
+	height:660px;
+	margin:auto;
+	border: solid 5px #000000;
+	border-radius: 8%;
+	background-image: URL("immagini/base.jpg");
+	background-repeat: no-repeat;
+	background-size: 440px 660px;
+}
+#questcontenitore{
+	color:black;
+    padding-top: 0%;
+    height: 551px;
+	width:440px;
+	overflow-y: scroll;
+	scrollbar-color: aquamarine rgba(79,300,205,0.32);
+}
+#questcontenitore::-webkit-scrollbar{
+	width: 2%;
+	border-radius: 10px;
+}
+#questcontenitore::-webkit-scrollbar-track{
+	background:rgba(79,300,205,0.32);
+	 border-radius: 5px;
+}
+
+#questcontenitore::-webkit-scrollbar-thumb {
+	background: aquamarine;
+	border-radius: 5px;
+}
+
+#alto{
+	height:8.3%;
+	text-align:center;
+}
+#aggiusta{
+	padding-top:3%;
+}
+#basso{
+	height:8%;
+}
+#avanti, #inizia{
+	margin-top:4%;
+}
+#inizia{
+	margin-left:4%;
+}
+#avanti{
+	float:right;
+	margin-right:4%;
+}
+
+#finale{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+	font-size:150%;
+	margin:0%;
+}
+
+#risultato img{
+	padding-top:0%;
+	padding-left:5%;
+	padding-bottom:2%;
+	width:90%;
+}
+
+div.contrisposte {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 55%; 
+    height: 50px;
+	background-image:linear-gradient(to bottom right, #ffffff 31%, #000000 112%);
+	margin: auto;
+	margin-bottom:2%;
+    border-radius: 10px;
+}
+div.contrisposte input {
+	margin-top:5%;
+	margin-left:5%;	
+}
+div.contrisposte span {
+	text-align:center;
+}
+@media screen and (max-width: 800px){
+ #base {
+	 width:96%;
+	 background-size: 100% 660px;
+ }
+ #base {
+	 width:96%;
+	 background-size: 100% 660px;
+ }
+ #questcontenitore img{
+	 width: 85%;
+ }
+#scelte {
+	margin: none;
+	margin-right:17%;
+ }
+ #avanti {
+	 margin-right:2%;
+ }
+ #risultato img{
+	 padding-left:0%;
+ }
+  #finale{
+	font-size:130%;
+}
+}
+
+@media screen and (max-width: 570px){
+#base {
+	 width:76%;
+	 background-size: 100% 660px;
+ }
+ #base {
+	 width:96%;
+	 background-size: 100% 660px;
+ }
+ #questcontenitore img{
+	 width: 85%;
+ }
+#scelte {
+	margin: none;
+	margin-right:17%;
+ }
+ #avanti {
+	 margin-right:2%;
+ }
+  #risultato img{
+	 padding-left:0%;
+ }
+ #finale{
+	font-size:130%;
+}
+}
+
+@media screen and (max-width: 400px) {
+	#questcontenitore img{
+	 width: 50%;
+ }
+ #scelte {
+	font-size:75%;
+	width: 50%;
+	margin: none;
+	margin-right:17%;
+ }
+}
+

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+body {
+	background-image: URL("immagini/sfondo1.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+	font-family: 'Charm',cursive;
+}
+header {
+	text-align:center;
+}
+
+#testa{
+	width:85%;
+	padding-bottom: 1%;
+}
+ul {
+  text-align:center;
+  list-style-type: none;
+  width: 85%;
+  padding-left:0%;
+  margin-left: 7.5%;
+  margin-right:7.5%;
+  overflow: hidden;
+  background-color:rgba(79,255,205,0.32);
+}
+li{
+	display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+   font-size: 145%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+div.centrale{
+	position: absolute;
+	color: white;
+	background-color: rgba(255,255,255,0.26);
+	width: 83%;
+	border: solid 2px #FFFFFF;
+	border-top-right-radius: 3%;
+    margin-top: 1%;
+	margin-left:7.5%;
+	margin-right:7.5%;
+	margin-bottom:3%;
+}
+#foto {
+	width:100%;
+	padding-top: 3%;
+	text-align:center;
+}
+#titolo {
+	width:100%;
+	font-family: 'Charm',cursive;
+	font-size:450%;
+	color: rgba(79,255,155,0.5);
+}
+div.affianca{
+	float:left;
+	margin-left:7px;
+}
+#primariga{
+	padding-left:20%;
+}
+#secondariga, #terzariga{
+	clear:both;
+}
+#secondariga, #terzariga{
+	padding-left:31%;
+}
+div.nome{
+	color:black;
+	font-size: 155%;
+	margin-right: 10%;
+	text-align:center;
+}
+#nameyoosung{
+	background-color:#00FF00;
+}
+#namezen{
+	background-color:#A3A2A3;
+}
+#namejeahee{
+	background-color:#CA8B0D;
+}
+#nameseven{
+	background-color:#EE0101;
+}
+#namejumin{
+	background-color: #9370DB;
+}
+#namev{
+	background-color:#00c8e8;
+}
+#namerika{
+	background-color:#dfe307;
+	margin-bottom:10%;
+}
+#nameunknown{
+	background-color:#D819B2;
+}
+
+@media screen and (max-width: 800px){
+div.affianca{
+	float:none;
+	margin-left:7px;
+}
+div.nome{
+	width:52%;
+	margin-right: 0%;
+	margin-left:20%;
+
+}
+#primariga, #secondariga, #terzariga{
+	padding-left:0%;
+}
+
+}
+
+@media screen and (min-width: 1900px){
+ #titolo {
+	 font-size:550%;
+ }
+ #primariga{
+	padding-left:30%;
+}
+#secondariga, #terzariga{
+	padding-left:37%;
+}
+}
